@@ -1,0 +1,51 @@
+#full{
+	background-color:#B2BABB;
+	height: 100%;
+	width: 90%;
+}
+#titlecol{
+	background-color: #5DADE2;
+	color: #FDFEFE;
+	font-size: larger;
+	text-align: center;
+}
+#smtitlecol{
+	background-color: #5DADE2;
+	color: #FDFEFE;
+	font-size: larger;
+	text-align: center;
+}
+#profpic{
+	height: 15%;
+	width: 15%;
+}
+#stackpic{
+	height: 5%;
+	width: 5%;
+float: right;
+
+}
+#linkedpic{
+	height: 5%;
+	width: 5%;
+float: right;
+}
+#gitpic{
+	height: 5%;
+	width: 5%;
+float: right;
+}
+#footer{
+	float: bottom;
+	text-align: center;
+	font-size: small;
+}
+.projtitle{
+	text-align: center;
+	background-color: #5DADE2;
+	color: #FDFEFE;
+	width: 200px;
+}
+.projlink{
+	color:white;
+}
