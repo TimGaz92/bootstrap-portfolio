@@ -55,12 +55,20 @@
 		<div id="img1" class=" col-md-2">
 			<div class="projtitle"><a class="projlink" href="https://www.youtube.com/watch?v=kszLwBaC4Sw"> Project 1</a></div>
 			<img src="assets/bowie.jpg" width="200px" height="200px"> 
+					<div class="span4 collapse-group">
+         			<p class="collapse">project is not yet availible </p>
+       				 <p><a class="btn" href="#">View details &raquo;</a></p>
+    				</div>
 		</div>
 		<div class="col-md-2">
 		</div>
 		<div id="img2" class="col-md-2">
 				<div class="projtitle"><a class="projlink" href="#"> Project 2</a></div>
 			<img src="assets/deer.jpg" width="200px" height="200px">
+				<div class="span4 collapse-group">
+         			<p class="collapse">project is not yet availible </p>
+       				 <p><a class="btn" href="#">View details &raquo;</a></p>
+    				</div>
 		</div>
 		<div class="col-md-3">
 		</div>
@@ -72,12 +80,20 @@
 		<div id="img3" class=" col-md-2">
 			<div class="projtitle"> <a class="projlink" href="#"> Project 3</a></div>
 			<img src="assets/rhino.jpg" height="200px" width="200px"> 
+				<div class="span4 collapse-group">
+         			<p class="collapse">project is not yet availible </p>
+       				 <p><a class="btn" href="#">View details &raquo;</a></p>
+    				</div>
 		</div>
 		<div class="col-md-2">
 		</div>
 		<div id="img4" class="col-md-2">
 				<div class="projtitle"><a class="projlink" href="#"> Project 4</a></div> 
 			<img src="assets/elephant.jpg" height="200px" width="200px">
+				<div class="span4 collapse-group">
+         			<p class="collapse">project is not yet availible </p>
+       				 <p><a class="btn" href="#">View details &raquo;</a></p>
+    				</div>
 		</div>
 		<div class="col-md-3">
 		</div>
@@ -89,12 +105,20 @@
 		<div id="img5" class=" col-md-2">
 				<div class="projtitle"> <a class="projlink" href="#"> Project 5</a></div>
 			<img src="assets/tombrady.jpg" height="200px" width="200px">
+					<div class="span4 collapse-group">
+         			<p class="collapse">project is not yet availible </p>
+       				 <p><a class="btn" href="#">View details &raquo;</a></p>
+    				</div>
 		</div>
 		<div class="col-md-2">
 		</div>
 		<div id="img6" class="col-md-2">
 				<div class="projtitle"> <a class="projlink" href="#">Rutgers Info</a></div>
 			<img src="assets/rutgers.png" height="200" width="200px">
+					<div class="span4 collapse-group">
+         			<p class="collapse">project is not yet availible </p>
+       				 <p><a class="btn" href="#">View details &raquo;</a></p>
+    				</div>
 		</div>
 		<div class="col-md-3">
 		</div>
@@ -109,6 +133,15 @@
 	</div> <!--closes footer row-->
 </div> <!--closes main container -->
 </body>
+<script type="text/javascript">
+$('.row .btn').on('click', function(e) {
+    e.preventDefault();
+    var $this = $(this);
+    var $collapse = $this.closest('.collapse-group').find('.collapse');
+    $collapse.collapse('toggle');
+});
+</script>
+
 <!--using internal CSS style to check dimensions etc.-->
 	<!--<style type="text/css">
 		#img1{
